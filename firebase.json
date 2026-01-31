@@ -1,0 +1,21 @@
+{
+  "functions": {
+    "source": "functions",
+    "runtime": "nodejs24"
+  },
+  "firestore": {
+    "rules": "firestore.rules"
+  },
+  "storage": {
+    "rules": "storage.rules"
+  },
+  "emulators": {
+    "auth": { "host": "127.0.0.1", "port": 9099 },
+    "firestore": { "host": "127.0.0.1", "port": 8091 },
+    "storage": { "host": "127.0.0.1", "port": 9199 },
+    "functions": { "host": "127.0.0.1", "port": 5001 },
+    "ui": { "host": "127.0.0.1", "enabled": true, "port": 4000 },
+    "hub": { "host": "127.0.0.1" },
+    "logging": { "host": "127.0.0.1" }
+  }
+}

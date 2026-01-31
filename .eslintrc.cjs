@@ -1,0 +1,10 @@
+module.exports = {
+  root: true,
+  parser: "@typescript-eslint/parser",
+  plugins: ["@typescript-eslint"],
+  extends: ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
+  ignorePatterns: ["dist", ".next", "node_modules"],
+  env: {
+    es2021: true
+  }
+};
