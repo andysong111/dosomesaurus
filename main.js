@@ -46,6 +46,10 @@ const applyTheme = (theme) => {
 const initialTheme = getPreferredTheme();
 applyTheme(initialTheme);
 
+window.addEventListener("load", () => {
+    alert("환영합니다!");
+});
+
 searchBtn.addEventListener("click", () => {
     const mbtiType = mbtiInput.value.toUpperCase();
     if (mbtiData[mbtiType]) {
